@@ -39,7 +39,9 @@ public class LineNumberStringBuilderPrinter extends StringBuilderPrinter {
         super.start(maxLineNumber, majorVersion, minorVersion);
 
         if (showLineNumbers) {
-            this.maxLineNumber = maxLineNumber;
+            // The maximum number of comment lines,
+            // there will be redundant comment problems when deleting decompilation
+//            this.maxLineNumber = maxLineNumber;
 
             if (maxLineNumber > 0) {
                 digitCount = 1;
