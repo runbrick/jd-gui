@@ -1,5 +1,7 @@
 # JD-GUI 克隆版本,此版本可以直接复制中文和导出没有多余的注释信息
 
+![](https://raw.githubusercontent.com/java-decompiler/jd-gui/master/src/website/img/jd-gui.png)
+
 JD-GUI，一个独立的图形实用程序，显示来自 CLASS 文件的 Java 源代码。
 
 原始版本 [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
